@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import { FaBars,FaTimes } from "react-icons/fa";
+import { FaBars,FaTimes, FaLinkedin, FaGithub} from "react-icons/fa";
+import {HiOutlineMail} from "react-icons/hi";
+import {BsFillPersonLinesFill} from "react-icons/bs"
 
 const Navbar = () => {
 
@@ -18,7 +20,7 @@ const Navbar = () => {
           <li>About</li>
           <li>Skills</li>
           <li>Projects</li>
-          <li>Contact</li>
+          <li>Contact</li>  
         </ul>
 
       {/* Harmburger */}
@@ -35,7 +37,39 @@ const Navbar = () => {
 
         </ul>
         {/* Social Icons */}
-        <div className='hidden'>
+        <div className='flex flex-col fixed top-[35%] left-0'>
+          <ul>
+            <li>
+              <a className='flex justify-between items-center w-full text-gray-400'
+               href="/">
+                LinkedIn <FaLinkedin size={30}/>
+              </a>
+            </li>
+            {/* <li>
+              <a className='flex justify-between items-center w-full text-gray-400'
+               href="/">
+                LinkedIn <FaLinkedin size={30}/>
+              </a>
+            </li> */}
+            <li>
+              <a className='flex justify-between items-center w-full text-gray-400'
+               href="/">
+                LinkedIn <FaGithub size={30}/>
+              </a>
+            </li>
+            <li>
+              <a className='flex justify-between items-center w-full text-gray-400'
+               href="/">
+                LinkedIn <HiOutlineMail size={30}/>
+              </a>
+            </li>
+            <li>
+              <a className='flex justify-between items-center w-full text-gray-400'
+               href="/">
+                LinkedIn <BsFillPersonLinesFill size={30}/>
+              </a>
+            </li>
+          </ul>
 
       {/* absolute top-0 left-0 w-full h-screen bg-[#0a192f] justify-center items-center flex flex-col */}
 
