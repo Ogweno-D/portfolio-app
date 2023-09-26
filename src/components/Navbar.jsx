@@ -12,36 +12,34 @@ const Navbar = () => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-500'>
-
-      
+    <div className=' fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
         <img src={Logo} alt='Logo' style={{ width: '200px' }} />
       </div>
     
         <ul className='hidden md:flex'>
 
-          <li>
+          <li className='nav-li'>
             <Link to='home' smooth ='true'  duration={500}>
             Home
             </Link>
           </li>
-          <li>
+          <li className='nav-li'>
             <Link to='about' smooth ='true'  duration={500}>
             About
             </Link>
             </li>
-          <li>
+          <li className='nav-li'>
             <Link to='skills' smooth ='true'  duration={500}>
             Skills
             </Link>
             </li>
-          <li>
+          <li className='nav-li'>
             <Link to='work' smooth ='true'  duration={500}>
             Project
             </Link>
             </li>
-          <li>
+          <li className='nav-li'>
             <Link to='contact' smooth ='true'  duration={500}>
             Contact
             </Link>

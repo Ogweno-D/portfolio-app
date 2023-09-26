@@ -10,12 +10,12 @@ const Contact = () => {
 
                
             </div>
-            <input className='bg-[#ccdcf6] p-2'  type="text" name="Name" id=""placeholder='Name'  />
-            <input className='my-4 p-2 bg-[#ccdcf6]'  type="email" name="Email" id=""placeholder='Email' />
-            <textarea className='bg-[#ccdcf6] p-2' name="message" id="" cols="30" rows="10" placeholder='Write a message'></textarea>
+            <input className=' rounded-md leading-6 focus-visible:outline-none bg-[#ccdcf6] p-2'  type="text" name="Name" id=""placeholder='Name'  />
+            <input className='rounded-md my-4 p-2 focus-visible:outline-none bg-[#ccdcf6]'  type="email" name="Email" id=""placeholder='Email' />
+            <textarea className=' mt-3 rounded-xl bg-[#ccdcf6] p-2 focus-visible:outline-none ' name="message" id="" cols="30" rows="5" placeholder='Write a message'></textarea>
 
 
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex mx-auto items-center'  > Let's collaborate</button>
+            <button className='text-white border-2  rounded-md  hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex mx-auto items-center'  > Let's collaborate</button>
 
         </form>
         
