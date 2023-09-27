@@ -1,5 +1,5 @@
 # Portfolio Website
-This website was built using React (Create React App), tailwind and JSX.
+This website was built using React (Create React App), Tailwind CSS and JSX.
 
 
 
