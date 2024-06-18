@@ -1,3 +1,9 @@
+# Portfolio Website
+This website was built using React (Create React App), Tailwind CSS and JSX.
+
+
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
