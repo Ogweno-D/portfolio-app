@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Navbar from "./components/Navbar";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Work/>
       <Contact/>
+      {/* <Form/> */}
       </div>
     );
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import BeatlesImg from '../assets/Beattles-Web.jpg'
-import CheapSokoImg from '../assets/CheapSoko.png'
-import ChefProImg from '../assets/ChefPro.jpg'
+// import CheapSokoImg from '../assets/CheapSoko.png'
+import Tangazo from '../assets/e-tandazo.jfif'
+import Stock from '../assets/ai.jfif'
 
 const Work = () => {
   return (
@@ -37,10 +38,10 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage:`url(${CheapSokoImg})`}}
+                {/* <div style={{backgroundImage:`url(${CheapSokoImg})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                    {/* Hover effect */}
+                    {/* Hover effect
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 CheapSoko Web App
@@ -60,15 +61,15 @@ const Work = () => {
                     </div>
 
 
-                </div>
+                </div> */}
 
-                <div style={{backgroundImage:`url(${ChefProImg})`}}
+                <div style={{backgroundImage:`url(${Stock})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ChefPro Web App
+                                AI STOCK PREDICTION
                             </span>
                             <div className='pt-8  text-center'>
                                 <a href="/">
@@ -76,7 +77,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/marshvin/chefpro/blob/main/front-end">
+                                <a href="https://github.com/Ogweno-D/ai_stock_prediction">
                                     <button className='mx- text-center rounded-lg px-4 py-3  bg-white text-gray-700 font-bold text-ld'>
                                         Code
                                     </button>
@@ -86,13 +87,13 @@ const Work = () => {
 
                 </div>
 
-                <div style={{backgroundImage:`url(${ChefProImg})`}}
+                <div style={{backgroundImage:`url(${Tangazo})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover effect */}
+        
+                    {/* Hover effect*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ChefPro Web App
+                                E-Tangazo (Bulk SMS app)
                             </span>
                             <div className='pt-8  text-center'>
                                 <a href="/">
@@ -100,7 +101,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/marshvin/chefpro/blob/main/front-end">
+                                <a href="https://github.com/Ogweno-D/e-tangazo">
                                     <button className='mx- text-center rounded-lg px-4 py-3  bg-white text-gray-700 font-bold text-ld'>
                                         Code
                                     </button>
@@ -110,10 +111,10 @@ const Work = () => {
 
                 </div>
 
-                <div style={{backgroundImage:`url(${BeatlesImg})`}}
+                {/* <div style={{backgroundImage:`url(${})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div sm:pb-6'>
                     
-                    {/* Hover effect */}
+                    // Hover effect
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 Beattles Web Clone
@@ -132,12 +133,12 @@ const Work = () => {
                             </div>
                     </div>
                 
-                </div>
+                </div> */}
 
-                <div style={{backgroundImage:`url(${CheapSokoImg})`}}
+                {/* <div style={{backgroundImage:`url(${})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
-                    {/* Hover effect */}
+                    //  Hover effect 
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 CheapSoko Web App
@@ -155,20 +156,7 @@ const Work = () => {
                                 </a>
                             </div>
                     </div>
-
-
-                </div>
-
-                
-
-                
-
-                
-
-            
-                
-
-
+                </div> */}
             </div>
 
         </div>
